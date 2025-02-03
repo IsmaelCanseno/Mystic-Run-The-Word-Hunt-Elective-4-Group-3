@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bip30fgn3jcy4"]
+
+[ext_resource type="Texture2D" uid="uid://dbtcru6jd4md2" path="res://Mystic-Run-The-Word-Hunt-Elective-4-Group-3/Untitled design (4).png" id="1_cqy80"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_cqy80")

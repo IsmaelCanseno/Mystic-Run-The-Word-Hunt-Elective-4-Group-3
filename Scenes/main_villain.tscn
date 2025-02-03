@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://btf7cs0s5ilai"]
+
+[ext_resource type="Texture2D" uid="uid://cqnp3eq204jm5" path="res://Mystic-Run-The-Word-Hunt-Elective-4-Group-3/Jump (32x32) -.png" id="1_42xj1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uotc1"]
+size = Vector2(75, 100)
+
+[node name="CharacterBody2D2" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(34, 34)
+scale = Vector2(3.125, 3.125)
+texture = ExtResource("1_42xj1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+texture_filter = 1
+position = Vector2(40.5, 34)
+shape = SubResource("RectangleShape2D_uotc1")
